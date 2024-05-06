@@ -1,9 +1,12 @@
 <template>
   <!-- <parent></parent> -->
-  <reactive-test></reactive-test>
+  <!-- <reactive-test></reactive-test> -->
+  <computed-test></computed-test>
 </template>
 <script setup lang="ts">
-import reactiveTest from './components/reactive-test.vue'
+// import reactiveTest from './components/reactive-test.vue'
+// import refsTest from './components/refs/index.vue'
+import computedTest from './components/computed/index.vue'
 </script>
 
 <style scoped>
